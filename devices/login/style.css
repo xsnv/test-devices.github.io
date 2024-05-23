@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+body{background-image: repeating-linear-gradient(135deg, rgba(240, 240, 240,0.02) 0px, rgba(240, 240, 240,0.02) 21px,rgba(224, 224, 224,0.02) 21px, rgba(224, 224, 224,0.02) 42px,rgba(208, 208, 208,0.02) 42px, rgba(208, 208, 208,0.02) 63px,rgba(192, 192, 192,0.02) 63px, rgba(192, 192, 192,0.02) 84px,rgba(175, 175, 175,0.02) 84px, rgba(175, 175, 175,0.02) 105px,rgba(159, 159, 159,0.02) 105px, rgba(159, 159, 159,0.02) 126px,rgba(143, 143, 143,0.02) 126px, rgba(143, 143, 143,0.02) 147px,rgba(127, 127, 127,0.02) 147px, rgba(127, 127, 127,0.02) 168px),repeating-linear-gradient(45deg, rgba(232, 232, 232,0.02) 0px, rgba(232, 232, 232,0.02) 21px,rgba(209, 209, 209,0.02) 21px, rgba(209, 209, 209,0.02) 42px,rgba(185, 185, 185,0.02) 42px, rgba(185, 185, 185,0.02) 63px,rgba(162, 162, 162,0.02) 63px, rgba(162, 162, 162,0.02) 84px,rgba(138, 138, 138,0.02) 84px, rgba(138, 138, 138,0.02) 105px,rgba(115, 115, 115,0.02) 105px, rgba(115, 115, 115,0.02) 126px,rgba(91, 91, 91,0.02) 126px, rgba(91, 91, 91,0.02) 147px,rgba(68, 68, 68,0.02) 147px, rgba(68, 68, 68,0.02) 168px),linear-gradient(90deg, #ffffff,#ffffff);
+    }
+    h3{
+        text-align: center;
+    font-size:30px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 20px;
+    
+    }
+
+li a img{
+    width: 100px;
+    margin-top: 20px;
+    
+}
+
+
+
+    form{
+background-color: rgba(139, 139, 139, 0.493);
+width: 400px;
+height: 500px;
+border: 3px rgba(0, 0, 0, 0.418) inset;    
+border-radius: 20px;
+text-align: center;
+margin: auto;
+
+}
+
+#pass, #log {
+
+
+text-align: center;
+border: 2px groove rgba(190, 185, 185, 0.705);
+height: 40px;
+width: 200px;
+border-radius: 25px;
+margin: 10px 0px;
+font-weight: bold;
+color: black;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+
+}
+#pass:hover , #log:hover{
+
+border-color: whitesmoke;
+
+
+
+}
+#log{
+    margin-top: 70px;
+}
+
+#check{
+    color: black;
+    width: 30px;
+    margin: 25px 0px;
+}
+button{
+    border: 1px groove rgba(0, 0, 0, 0.692) ;
+width: 100px;
+height: 30px;
+border-radius: 25px;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+font-weight: bold;
+font-size: 12px; 
+transition: 0.5s;
+margin-top: 50px;
+
+}
+button:hover{
+background-color: rgba(26, 204, 26, 0.432);
+width: 120px;
+box-shadow: rgb(0, 0, 0) 0px 0px 5px;
+
+}
+#Clear:hover{
+background-color: rgba(255, 0, 0, 0.438);
+}
+
+
+
